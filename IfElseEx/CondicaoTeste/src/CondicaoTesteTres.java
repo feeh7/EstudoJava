@@ -20,7 +20,7 @@ public class CondicaoTesteTres {
             System.out.println("The second number entered is higher than the first");
         }
         else {
-            System.out.println("The numbers are equal");
+            System.out.println("The numbers are equal!");
         }
     }
 }
