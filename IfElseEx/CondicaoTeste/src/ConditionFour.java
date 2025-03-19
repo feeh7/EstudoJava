@@ -1,20 +1,20 @@
 import java.util.Scanner;
 
-public class CondicaoTesteQuatro {
+public class ConditionFour {
     public static void main(String[] args) {
 
-        Scanner keyandmouse = new Scanner(System.in);
+        Scanner key = new Scanner(System.in);
 
         System.out.println("Hello type 3 math notes from your last quarter and I will calculate the average!");
 
         System.out.println("Enter the first note:");
-        int note = keyandmouse.nextInt();
+        int note = key.nextInt();
 
         System.out.println("Enter the second note: ");
-        int noteTwo = keyandmouse.nextInt();
+        int noteTwo = key.nextInt();
 
         System.out.println("Enter the third number: ");
-        int noteThree = keyandmouse.nextInt();
+        int noteThree = key.nextInt();
 
         int sum = (note + noteTwo + noteThree);
         int equal = (sum / 3);
@@ -23,7 +23,7 @@ public class CondicaoTesteQuatro {
             System.out.println("Congratulations, your average is "+equal+" and you have been approved!");
         }
         else {
-            System.out.println("Wowww, your average is "+equal+" and you have failed ");
+            System.out.println("Wow, your average is "+equal+" and you have failed ");
         }
 
     }

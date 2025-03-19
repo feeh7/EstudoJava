@@ -1,20 +1,20 @@
 import java.util.Scanner;
 
-public class CondicaoTesteOito {
+public class ConditionEight {
     public static void main(String[] args) {
 
-        Scanner keyandmouse = new Scanner(System.in);
+        Scanner key = new Scanner(System.in);
 
         System.out.println("Hey, how's it going? Please enter 3 numbers, and I'll tell you if they can form a triangle");
 
         System.out.println("Type the first number: ");
-        int numberOne = keyandmouse.nextInt();
+        int numberOne = key.nextInt();
 
         System.out.println("Type the second number: ");
-        int numberTwo = keyandmouse.nextInt();
+        int numberTwo = key.nextInt();
 
         System.out.println("Type the third number: ");
-        int numberThree = keyandmouse.nextInt();
+        int numberThree = key.nextInt();
 
         if (numberOne + numberTwo > numberThree && numberOne + numberThree > numberTwo && numberTwo + numberThree > numberOne) {
             System.out.println("You can be a triangle");

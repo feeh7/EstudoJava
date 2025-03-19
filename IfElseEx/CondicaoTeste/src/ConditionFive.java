@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-public class CondicaoTesteQuinto {
+public class ConditionFive {
     public static void main(String[] args) {
 
-        Scanner keyandmouse = new Scanner(System.in);
+        Scanner key = new Scanner(System.in);
 
         System.out.println("Hello! type your age, The program will tell you if you are older or underage!");
 
         System.out.println("How old are you?: ");
-        int age = keyandmouse.nextInt();
+        int age = key.nextInt();
 
         if (age > 18) {
             System.out.println("Woww you are só old");

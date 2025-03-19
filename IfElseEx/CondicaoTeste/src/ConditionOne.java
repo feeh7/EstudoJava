@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class CondicaoTeste {
+public class ConditionOne {
     public static void main(String[] args) {
 
-        Scanner keyandmouse = new Scanner(System.in);
+        Scanner key = new Scanner(System.in);
 
         System.out.println("Enter a number and say if it is positive or negative: ");
-        int number = keyandmouse.nextInt();
+        int number = key.nextInt();
 
         if (number >= 1) {
             System.out.println("This number is positive and greater than zero");

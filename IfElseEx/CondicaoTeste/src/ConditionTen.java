@@ -1,17 +1,17 @@
 import java.util.Scanner;
 
-public class CondicaoTesteDez {
+public class ConditionTen {
     public static void main(String[] args) {
 
-        Scanner keyandmouse = new Scanner(System.in);
+        Scanner key = new Scanner(System.in);
 
         System.out.println("Enter your weight and height, and I'll calculate your BMI, man!!!");
 
         System.out.println("Your weight?");
-        int weight = keyandmouse.nextInt();
+        int weight = key.nextInt();
 
         System.out.println("Your Height");
-        double height = keyandmouse.nextDouble();
+        double height = key.nextDouble();
 
         double heightTwo = (height * height);
         double imc = (weight / heightTwo);

@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class CondicaoTesteSeis {
+public class ConditionSix {
     public static void main(String[] args) {
 
-        Scanner keyandmouse = new Scanner(System.in);
+        Scanner key = new Scanner(System.in);
 
         System.out.println("Enter the salary of your company's stage!");
         System.out.println("What is the salary of the Stagium?: ");
-        double value = keyandmouse.nextDouble();
+        double value = key.nextDouble();
 
         if (value < 2000) {
             double endValue = (value * 1.10);

@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class CondicaoTesteSete {
+public class ConditionSeven {
     public static void main(String[] args) {
 
-        Scanner keyandmouse = new Scanner(System.in);
+        Scanner key = new Scanner(System.in);
 
         System.out.println("Enter an integer: ");
-        int number = keyandmouse.nextInt();
+        int number = key.nextInt();
 
         if (number > 10 && number < 50) {
             System.out.println("Dentro do intervalo");
