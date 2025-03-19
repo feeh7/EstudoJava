@@ -7,7 +7,7 @@ public class CondicaoTesteSeis {
 
         System.out.println("Enter the salary of your company's stage!");
         System.out.println("What is the salary of the Stagium?: ");
-        double value = keyandmouse.nextInt();
+        double value = keyandmouse.nextDouble();
 
         if (value < 2000) {
             double endValue = (value * 1.10);
