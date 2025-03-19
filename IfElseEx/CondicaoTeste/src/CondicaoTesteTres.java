@@ -16,12 +16,11 @@ public class CondicaoTesteTres {
         if (number > numberTwo) {
             System.out.println("The first number entered is higher than the second");
         }
-        else {
+        else if (numberTwo > number) {
             System.out.println("The second number entered is higher than the first");
         }
-        {
+        else {
             System.out.println("The numbers are equal");
         }
-
     }
 }
