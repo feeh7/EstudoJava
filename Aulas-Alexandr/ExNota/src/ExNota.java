@@ -16,9 +16,7 @@
             } else if (nota >= 1 && nota <= 4) {
                 System.out.println("Reprovado");
             } else if (nota < 0 || nota > 10) {
-                System.out.println("Nota inválida ou fora do escopo esperado");
-            } else {
-                System.out.println("Nota não reconhecida");
+                System.out.println("Nota inválida");
             }
         }
     }
